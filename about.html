@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>About Brooklyn Tech</title>
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="top">
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShMSXXIN_H0ogdxJ6FYtCRyH1UVH6OocpCZzA95Cy1Qw&s=10"
+          alt="Brooklyn Tech logo"
+        />
+      </div>
+
+      <div class="navlinks">
+        <a href="../index.html" class="navlink">
+          <div>Home</div>
+        </a>
+
+        <a href="#" class="navlink">
+          <div>About BTHS</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div id="home" class="bths-banner">
+      <div class="banner-text">
+        <h1>Brooklyn Technical High School</h1>
+        <p>Education, innovation, and opportunity since 1922</p>
+      </div>
+    </div>
+
+    <!-- About Brooklyn Tech -->
+    <main id="about">
+      <section class="about-blurb">
+        <div class="about-img-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLbogi7OsAp9Y3X-gk4srzeeWHJgzMrk9y1ojg59anRg&s"
+            alt="Brooklyn Technical High School logo"
+          />
+        </div>
+
+        <div class="about-text">
+          <h2>About Brooklyn Tech</h2>
+
+          <p>
+            Brooklyn Technical High School opened in 1922 with a mission to
+            prepare students for college and careers in science, technology,
+            engineering, and mathematics.
+          </p>
+
+          <p>
+            In <span id="currentYear"></span>, Brooklyn Tech celebrates
+            <span id="yearDelta"></span> years of challenging students to
+            explore their interests and expand their abilities.
+          </p>
+
+          <p>
+            During their first two years, students build foundations across
+            several academic subjects. They then select one of Brooklyn Tech’s
+            18 majors, allowing their junior and senior courses to focus on a
+            particular field.
+          </p>
+
+          <p>
+            From engineering and computer science to finance, media, law, and
+            medicine, the major system helps students discover possible paths
+            for their futures.
+          </p>
+        </div>
+      </section>
+
+      <!-- Interactive Major Section -->
+      <section id="contact">
+        <h2>Explore Your Interests</h2>
+
+        <p>
+          Enter a Brooklyn Tech major that interests you.
+        </p>
+
+        <div class="username-input">
+          <input
+            id="majorInput"
+            type="text"
+            placeholder="Example: Computer Engineering"
+          />
+
+          <button id="usernameBtn">Submit</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h3>
+        <a
+          href="https://www.bths.edu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit the BTHS Website
+        </a>
+      </h3>
+
+      <h3>
+        <a href="#top">Back to Top</a>
+      </h3>
+    </footer>
+
+    <script src="about.js"></script>
+  </body>
+</html>
